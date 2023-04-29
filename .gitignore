@@ -1,0 +1,7 @@
+/.idea
+/venv
+/config/.env
+/src/migrations
+/base_config.json
+/db.sqlite3
+/database_config.py

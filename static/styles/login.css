@@ -1,0 +1,89 @@
+body {
+    background: #1C1818;
+}
+
+.main {
+    position: absolute;
+    width: 954px;
+    height: 696px;
+    left: 483px;
+    top: 192px;
+
+    background: #151515;
+    border-radius: 17px;
+}
+
+.head {
+    position: absolute;
+    width: 576px;
+    height: 84px;
+    margin-top: 100px;
+    margin-left: 200px;
+    text-align: center;
+
+    font-family: 'JetBrains Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 84px;
+
+    color: #FFFFFF;
+}
+
+.email_section {
+    width: 451px;
+    height: 71px;
+
+    margin-top: 250px;
+    margin-left: 250px;
+    text-align: center;
+
+    background: #2D2828;
+    border-radius: 17px;
+}
+
+.password_section {
+    width: 451px;
+    height: 71px;
+
+    margin-top: 37px;
+    margin-left: 250px;
+    text-align: center;
+
+    background: #2D2828;
+    border-radius: 17px;
+}
+
+.start_section {
+    padding: 10px;
+    width: 552px;
+    height: 60px;
+
+    margin-top: 57px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+    text-align: center;
+
+    background: #562C80;
+    border-radius: 17px;
+}
+
+.start {
+    font-family: 'JetBrains Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+
+    color: #FFFFFF;
+}
+
+.register_question {
+    color: #562C80;
+
+    font-family: 'JetBrains Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+
+    margin-left: 360px;
+}
