@@ -2,3 +2,5 @@
 /venv
 /pybrains/config/.env
 /pybrains/src/migrations
+/base_config.json
+/pybrains/db.sqlite3
