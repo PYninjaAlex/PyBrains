@@ -2,6 +2,10 @@ body {
     background: #1C1818;
 }
 
+* {
+    transform: scale(0.9);
+}
+
 .main {
     position: absolute;
     width: 954px;
@@ -86,4 +90,18 @@ body {
     font-size: 28px;
 
     margin-left: 360px;
+}
+
+input[type=text] {
+    outline: none;
+    color: white;
+    font-size: 30px;
+    cursor: text;
+    border: 0;
+}
+
+button {
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
 }
