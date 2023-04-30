@@ -4,6 +4,8 @@ body {
 
 * {
     transform: scale(0.9);
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 400;
 }
 
 .container {
@@ -16,10 +18,10 @@ body {
 .main {
     position: relative;
     width: 954px;
-    height: 640px;
+    height: 620px;
     background: #151515;
     border-radius: 17px;
-    margin: auto; /* Added this line */
+    margin: auto;
 }
 
 .head {
@@ -63,30 +65,10 @@ body {
     border-radius: 17px;
 }
 
-.start_section {
-    padding: 15px;
-    width: 552px;
-    height: 60px;
-
-    margin-top: 57px;
-    margin-left: 200px;
-    margin-bottom: 30px;
-    text-align: center;
-
-    background: #562C80;
-    border-radius: 17px;
-}
-
-.start {
-    font-family: 'JetBrains Mono', monospace;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-
-    color: #FFFFFF;
-}
-
 .register_question {
+    background: none;
+    border: 0;
+    cursor: pointer;
     color: #562C80;
 
     font-family: 'JetBrains Mono', monospace;
@@ -120,12 +102,15 @@ a:hover {
 ::-webkit-input-placeholder {
    color: #FFFFFF;
 }
+
 :-moz-placeholder {
    color: #FFFFFF;
 }
+
 ::-moz-placeholder {
    color: #FFFFFF;
 }
+
 :-ms-input-placeholder {
    color: #FFFFFF;
 }
@@ -138,3 +123,20 @@ input:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s eas
 input:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
 input:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
 input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+
+.start {
+    cursor: pointer;
+    border: 0;
+    padding: 12px;
+    width: 552px;
+    height: 80px;
+
+    margin-top: 57px;
+    margin-left: 200px;
+    text-align: center;
+    background-color: #562C80;
+    border-radius: 17px;
+    font-size: 40px;
+    color: #FFFFFF;
+    outline: none;
+}
