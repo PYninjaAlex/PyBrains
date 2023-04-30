@@ -6,15 +6,20 @@ body {
     transform: scale(0.9);
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 .main {
-    position: absolute;
+    position: relative;
     width: 954px;
     height: 696px;
-    left: 483px;
-    top: 192px;
-
     background: #151515;
     border-radius: 17px;
+    margin: auto; /* Added this line */
 }
 
 .head {

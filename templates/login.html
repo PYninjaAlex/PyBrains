@@ -17,8 +17,9 @@
         </div>
         <input type="text" class="email_section" placeholder="Email">
         <input class="password_section" type="text" placeholder="Password" maxlength="20">
-        <button><div class="start_section"><span class="start">Start()</span></div></button>
+        <button onclick="window.location.href='{% url 'home' %}'"><div class="start_section"><span class="start">Start()</span></div></button>
         <button><span class="register_question">New? Click here to register</span></button>
+        <span>{{ age }}</span>
     </div>
 </body>
 </html>

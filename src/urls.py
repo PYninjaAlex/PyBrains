@@ -1,7 +1,8 @@
 from django.urls import path
 from .views import *
+from loginlogic import *
 
 urlpatterns = [
-    path('', main),
-    path('login', login)
+    path('login', login),
+    path('', home, name='home')
 ]
