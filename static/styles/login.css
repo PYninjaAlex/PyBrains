@@ -16,7 +16,7 @@ body {
 .main {
     position: relative;
     width: 954px;
-    height: 696px;
+    height: 640px;
     background: #151515;
     border-radius: 17px;
     margin: auto; /* Added this line */
@@ -44,7 +44,7 @@ body {
     width: 451px;
     height: 71px;
 
-    margin-top: 250px;
+    margin-top: 200px;
     margin-left: 250px;
 
     background: #2D2828;
@@ -52,7 +52,7 @@ body {
 }
 
 .password_section {
-    padding: 12px;
+    padding: 15px;
     width: 451px;
     height: 71px;
 
@@ -64,7 +64,7 @@ body {
 }
 
 .start_section {
-    padding: 10px;
+    padding: 15px;
     width: 552px;
     height: 60px;
 
@@ -116,3 +116,25 @@ a:hover {
     text-decoration: none;
     color:#000000;
 }
+
+::-webkit-input-placeholder {
+   color: #FFFFFF;
+}
+:-moz-placeholder {
+   color: #FFFFFF;
+}
+::-moz-placeholder {
+   color: #FFFFFF;
+}
+:-ms-input-placeholder {
+   color: #FFFFFF;
+}
+
+input::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
+input::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
+input:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}
+input:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease;}
+input:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+input:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+input:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
