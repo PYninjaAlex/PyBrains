@@ -40,24 +40,24 @@ body {
 }
 
 .email_section {
+    padding: 12px;
     width: 451px;
     height: 71px;
 
     margin-top: 250px;
     margin-left: 250px;
-    text-align: center;
 
     background: #2D2828;
     border-radius: 17px;
 }
 
 .password_section {
+    padding: 12px;
     width: 451px;
     height: 71px;
 
     margin-top: 37px;
     margin-left: 250px;
-    text-align: center;
 
     background: #2D2828;
     border-radius: 17px;
@@ -109,4 +109,10 @@ button {
     cursor: pointer;
     background-color: transparent;
     border: 0;
+}
+
+a:hover {
+    cursor: default;
+    text-decoration: none;
+    color:#000000;
 }

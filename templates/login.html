@@ -15,11 +15,13 @@
         <div>
             <span class="head">#print(“Login”)</span>
         </div>
-        <input type="text" class="email_section" placeholder="Email">
-        <input class="password_section" type="text" placeholder="Password" maxlength="20">
-        <button onclick="window.location.href='{% url 'home' %}'"><div class="start_section"><span class="start">Start()</span></div></button>
+        <input type="text" class="email_section" placeholder="@input(email)">
+        <input class="password_section" type="text" placeholder="@input(password)" maxlength="20">
+        <a href="home"><div class="start_section"><span class="start">Start()</span></div></a>
         <button><span class="register_question">New? Click here to register</span></button>
-        <span>{{ age }}</span>
     </div>
+{% for i in terms %}
+<span>{{ i.age }}</span>
+{% endfor %}
 </body>
 </html>

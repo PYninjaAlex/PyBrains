@@ -1,12 +1,11 @@
 from django.shortcuts import render, HttpResponse
-import loginlogic
+from .logic_ import age
 
 def home(request):
-    return HttpResponse(request, "home.html")
+    return render(request, "home.html")
 
 def login(request):
     return render(request, "login.html")
 
-def logiclogin(request):
-    age = loginlogic.age
-    return render(request, "login.html", age)
+def logic(request):
+    return render(request, "login.html", {"terms": age})
