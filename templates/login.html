@@ -5,7 +5,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href={% static "styles/login.css" %}>
-     <link rel="shortcut icon" type="image/x-icon" href={% static "favicon.ico" %} type="image/x-icon">
+    <link rel="shortcut icon" type="image/x-icon" href={% static "favicon.ico" %} type="image/x-icon">
     <link rel="icon" type="image/x-icon" href={% static "favicon.ico" %}>
     <meta charset="UTF-8">
     <title>PyBrains</title>
@@ -15,16 +15,10 @@
         <div>
             <span class="head">#print(“Login”)</span>
         </div>
-        <div class="email_section">
-
-        </div>
-        <div class="password_section">
-
-        </div>
-        <div class="start_section">
-            <span class="start">Start()</span>
-        </div>
-        <span class="register_question">New? Click here to register</span>
+        <input type="text" class="email_section" placeholder="Email">
+        <input class="password_section" type="text" placeholder="Password" maxlength="20">
+        <button><div class="start_section"><span class="start">Start()</span></div></button>
+        <button><span class="register_question">New? Click here to register</span></button>
     </div>
 </body>
 </html>
